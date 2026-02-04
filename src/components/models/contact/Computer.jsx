@@ -1,9 +1,9 @@
 import { useGLTF } from "@react-three/drei";
+import { asset } from "../../../utils/setBaseURL";
 
-export function Computer(props) {
+export function Computer (props) {
   const { nodes, materials } = useGLTF(
-    "/models/computer-optimized-transformed.glb"
-  );
+    asset("models/computer-optimized-transformed.glb"));
 
   return (
     <group {...props} dispose={null}>
