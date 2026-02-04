@@ -2,20 +2,16 @@ import { asset } from "../utils/setBaseURL";
 
 const navLinks = [
   {
-    name: "Work",
+    name: "Projects",
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Education",
     link: "#experience",
   },
   {
     name: "Skills",
     link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
   },
 ];
 
@@ -135,8 +131,8 @@ const techStackIcons = [
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    modelPath: "/models/docker-logo.glb",
+    scale: 50,
     rotation: [0, 0, 0],
   },
   {
